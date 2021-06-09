@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
         '/dashboard'   : (context) => DashboardScreen(),
         '/intenciones' : (context) => IntencionesScreen(),
         '/conversor'   : (context) => ConversorScreen(),
+        
       },
     );
   }
