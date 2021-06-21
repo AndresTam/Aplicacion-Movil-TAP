@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:practica2_tap/screens/conversor_screen.dart';
-import 'package:practica2_tap/screens/intenciones_screen.dart';
-import 'package:practica2_tap/screens/dashboard_screen.dart';
-import 'package:practica2_tap/screens/login_screen.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:practica2_tap/screens/login_screen.dart';
+import 'package:practica2_tap/screens/popular_screen.dart';
+import 'package:practica2_tap/screens/conversor_screen.dart';
+import 'package:practica2_tap/screens/dashboard_screen.dart';
+import 'package:practica2_tap/screens/intenciones_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         '/dashboard'   : (context) => DashboardScreen(),
         '/intenciones' : (context) => IntencionesScreen(),
         '/conversor'   : (context) => ConversorScreen(),
-        
+        '/populares'   : (context) => PopularScreen(),
       },
     );
   }

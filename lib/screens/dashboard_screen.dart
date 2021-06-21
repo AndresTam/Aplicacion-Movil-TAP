@@ -63,7 +63,9 @@ class DashboardScreen extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
               ),
               trailing: Icon(Icons.chevron_right, color: Colors.white,),
-              onTap: (){},
+              onTap: (){
+                Navigator.pushNamed(context, '/populares');
+              },
             ),
             SizedBox(
               height: 15.0,
